@@ -141,8 +141,6 @@ def lose_game_check():
 def win_game_check():
     return SCORE == 6050
         
-    
-	
 def cover_tracks(X,Y):
     pygame.draw.rect(DISPLAYSURF,BLACK,(X,Y, SQUARE_LENGTH,SQUARE_LENGTH))
 
